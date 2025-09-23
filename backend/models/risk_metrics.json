@@ -1,0 +1,15 @@
+{
+  "accuracy": 0.9824561403508771,
+  "precision": 0.9861111111111112,
+  "sensitivity": 0.9861111111111112,
+  "specificity": 0.9761904761904762,
+  "f1Score": 0.9861111111111112,
+  "rocAuc": 0.9953703703703703,
+  "prAuc": 0.9970652078135953,
+  "confusionMatrix": {
+    "trueNegatives": 41,
+    "falsePositives": 1,
+    "falseNegatives": 1,
+    "truePositives": 71
+  }
+}

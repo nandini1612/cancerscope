@@ -1,0 +1,1 @@
+docs/video-full.mp4 filter=lfs diff=lfs merge=lfs -text
