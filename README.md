@@ -43,7 +43,7 @@ Breast cancer affects millions, and early detection can be life-changing. This p
 
 ### 2. Image Analysis (Histopathology)
 
-![CancerScope Screenshot](./docs/video1.mp4)
+![CancerScope Screenshot](https://github.com/user-attachments/assets/052f1c50-f0b2-4709-a20f-d580931bd524)
 
 - Upload tissue image patches (IDC dataset format)
 - CNN predicts malignancy with confidence score
@@ -52,7 +52,7 @@ Breast cancer affects millions, and early detection can be life-changing. This p
 
 ### 3. Risk Prediction (Tabular Data)
 
-![CancerScope Screenshot](./docs/video2.mp4)
+![CancerScope Screenshot](https://github.com/user-attachments/assets/a8795320-3de6-424c-a3f7-65ad5c76de8d)
 
 - Upload CSVs with diagnostic measurements (UCI format)
 - Predict benign or malignant cases using trained models
@@ -131,7 +131,7 @@ These metrics help better understand the model’s performance under different t
 ---
 ### 🎥 Video Walkthrough 
 
-[![Watch the demo](./docs/video-full.mp4)]
+[![Watch the demo](https://github.com/user-attachments/assets/ee69c88e-7f03-488d-9ece-b171d9aaf0df)]
 
 ---
 
