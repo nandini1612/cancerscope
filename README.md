@@ -1,6 +1,6 @@
 # CancerScope
 
-> A minimal, full-stack application for breast cancer detection using both diagnostic data and ultrasound images.
+> A minimal, full-stack application for breast cancer detection using both diagnostic data and ultrasound images. This project predicts breast cancer (benign vs malignant) from ultrasound images using the BUSI dataset. The backend is built with Flask, and the model uses a Convolutional Neural Network (CNN) along with Grad-CAM for explainability.
 
 ---
 
@@ -78,12 +78,24 @@ Breast cancer affects millions, and early detection can be life-changing. This p
 - Recharts / D3.js
 
 ### Backend + ML Integration
-- Node.js + Express
-- Python (Flask or FastAPI)
-  - scikit-learn (tabular models)
-  - TensorFlow / Keras (image model)
-  - SHAP for explainability
-  - Grad-CAM for CNN heatmaps
+- Python (Flask)
+- scikit-learn (tabular models)
+- TensorFlow / Keras (image model)
+- SHAP for explainability
+- Grad-CAM for CNN heatmaps
+
+## Datasets Used
+
+### UCI Breast Cancer Wisconsin Diagnostic Dataset
+- Tabular data from fine needle aspirates of breast masses
+- Features like radius, texture, area, smoothness, etc.
+- Labels: Benign or Malignant
+
+### BUSI (Breast Ultrasound Images)
+- Classes: Benign (normal + benign) and Malignant
+- Total: 780 images (approx.)
+- Images are preprocessed (224x224, normalized) before feeding into the CNN.
+
 
 ### Deployment
 - Frontend: Vercel
@@ -98,24 +110,9 @@ Breast cancer affects millions, and early detection can be life-changing. This p
 CancerScope/
 │
 ├── frontend/ # React app
-├── backend/ # Node.js + integrated ML service
+├── backend/ # Flask + integrated ML service
 ├── docs/ # Model and data cards, screenshots
 └── README.md
-
-
----
-
-## Datasets Used
-
-### UCI Breast Cancer Wisconsin Diagnostic Dataset
-- Tabular data from fine needle aspirates of breast masses
-- Features like radius, texture, area, smoothness, etc.
-- Labels: Benign or Malignant
-
-### IDC Histopathology Image Dataset (Kaggle)
-- Microscopic image patches (50x50) of breast tissue
-- Binary classification: IDC (malignant) or benign
-- Used for CNN training and Grad-CAM visualizations
 
 ---
 
@@ -144,7 +141,6 @@ These metrics help better understand the model’s performance under different t
 
 - Node.js
 - Python 3.8+
-- Docker (optional for deployment)
 
 ### Setup Instructions
 
@@ -160,7 +156,6 @@ npm run dev
 
 # Start backend + ML service
 cd ../backend
-npm install
 pip install -r requirements.txt
 npm run dev
 
