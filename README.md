@@ -1,6 +1,6 @@
 # CancerScope
 
-> A minimal, full-stack application for breast cancer detection using both diagnostic data and histopathology images.
+> A minimal, full-stack application for breast cancer detection using both diagnostic data and ultrasound images.
 
 ---
 
