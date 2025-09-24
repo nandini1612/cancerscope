@@ -45,7 +45,7 @@ Breast cancer affects millions, and early detection can be life-changing. This p
 
 ![CancerScope Screenshot](https://github.com/user-attachments/assets/052f1c50-f0b2-4709-a20f-d580931bd524)
 
-- Upload tissue image patches (IDC dataset format)
+- Upload ultrasound image (BUSI dataset format)
 - CNN predicts malignancy with confidence score
 - Grad-CAM overlays show influential image regions
 
