@@ -46,7 +46,7 @@ Breast cancer affects millions, and early detection can be life-changing. This p
 ![CancerScope Screenshot](./docs/demo5.png)
 ![CancerScope Screenshot](./docs/demo6.png)
 ![CancerScope Screenshot](./docs/demo7.png)
-![CancerScope Screenshot](https://github.com/user-attachments/assets/052f1c50-f0b2-4709-a20f-d580931bd524)
+![CancerScope Video](https://github.com/user-attachments/assets/052f1c50-f0b2-4709-a20f-d580931bd524)
 
 - Upload ultrasound image (BUSI dataset format)
 - CNN predicts malignancy with confidence score
@@ -57,7 +57,7 @@ Breast cancer affects millions, and early detection can be life-changing. This p
 
 ![CancerScope Screenshot](./docs/demo8.png)
 ![CancerScope Screenshot](./docs/demo9.png)
-![CancerScope Screenshot](https://github.com/user-attachments/assets/a8795320-3de6-424c-a3f7-65ad5c76de8d)
+![CancerScope Video](https://github.com/user-attachments/assets/a8795320-3de6-424c-a3f7-65ad5c76de8d)
 
 - Upload CSVs with diagnostic measurements (UCI format)
 - Predict benign or malignant cases using trained models
